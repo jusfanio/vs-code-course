@@ -1,8 +1,9 @@
 html {
   display: flex;
+
   justify-content: center;
-  align-items: center;
   height: 100%;
+  margin-top: 24px;
 }
 
 h1 {
