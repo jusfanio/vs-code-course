@@ -1,11 +1,11 @@
 h1 {
-  color: purple;
-  font-size: 4rem;
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
 }
 
 h2 {
   color: aliceblue;
-  font-size: medium;
+  font-size: 2rem;
 }
 
 h3 {
@@ -15,7 +15,6 @@ h3 {
 p {
   color: rgb(181, 185, 188);
   font-size: 10pt;
-  width: 500px;
 }
 
 .app {
@@ -30,6 +29,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: black;
   margin-left: 52px;
+  width: 700px;
 }
 
 button {
@@ -42,4 +42,33 @@ button {
   stroke: none;
   padding: 20px;
   margin-top: 24px;
+}
+
+.image-description {
+  border: 1px solid #ccc;
+  max-width: 500px;
+  height: auto;
+}
+
+.image-description:hover {
+  opacity: 0.8;
+  /* other styles for the hover effect */
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.left-column {
+  background-color: #f2f2f2;
+}
+
+.right-column {
+  background-color: #e6e6e6;
 }
