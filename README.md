@@ -1,5 +1,3 @@
 # Hello
 
-**Hello bold**
-
-Hello
+# Hello bold
